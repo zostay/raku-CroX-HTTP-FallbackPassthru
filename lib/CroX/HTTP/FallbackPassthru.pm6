@@ -65,7 +65,7 @@ This is the method that puts it altogeher.
 
 =end pod
 
-class CroX::HTTP::FallbackPassthru:ver<0.0>:auth<github:zostay> does Cro::HTTP::Middleware::Response {
+class CroX::HTTP::FallbackPassthru:ver<0.1>:auth<github:zostay> does Cro::HTTP::Middleware::Response {
     has Cro::Uri $.forward-uri;
 
     method should-fallback(Cro::HTTP::Response $response --> Bool) {
