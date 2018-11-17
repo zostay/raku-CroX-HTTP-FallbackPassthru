@@ -9,7 +9,9 @@
   "source-url": "git://github.com/zostay/p6-CroX-HTTP-FallbackPassthru.git",
   "test-depends": [
     "Test",
-    "Test::META"
+    "Test::META",
+    "Cro::HTTP::Middleware",
+    "Cro::Uri"
   ],
   "license": "Artistic-2.0",
   "resources": [
